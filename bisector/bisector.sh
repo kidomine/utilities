@@ -15,6 +15,11 @@
 #
 # e.g.:
 #    sample_test.py:SampleTest.test_test1
+#
+# Further reading can be found here:
+#    https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git
+#    https://www.sitepoint.com/debugging-git-blame-bisect/
+#    https://www.metaltoad.com/blog/mechanizing-git-bisect-bug-hunting-lazy
 
 $(nosetests $1) || echo exiting with code 1... ; exit 1
 echo exiting with code 0...
